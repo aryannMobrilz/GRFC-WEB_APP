@@ -4,6 +4,9 @@ import Navbar from './Components/UI/Navbar/Navbar';  // Adjust import paths as n
 import Home from './Components/UI/Home/Home';      // Adjust import paths as needed
 import SliderBanner from './Components/UI/Home/SliderBanner';
 import Footer from './Components/Footer/Footer';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
 
 function App() {
   return (
