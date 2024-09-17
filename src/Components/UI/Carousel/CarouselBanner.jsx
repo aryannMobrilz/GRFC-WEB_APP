@@ -44,7 +44,7 @@ description : 'We are your local dog home boarding service giving you complete'
       <Slider {...settings}>
         {banners.map((banner, index) => (
           <div key={index}>
-            <div className='d-flex'>
+            <div className='d-flex w-100'>
               <div className='h-full w-1/2 '>
 <h1>{banner.heading}</h1>
 <p>{banner.description}</p>
@@ -52,7 +52,7 @@ description : 'We are your local dog home boarding service giving you complete'
               <img
               src={banner.image}
               alt={banner.alt}
-              style={{ width: '20%', height: 'auto' }}
+              style={{ width: '20%', height: '500px' }}
             />
             </div>
             
