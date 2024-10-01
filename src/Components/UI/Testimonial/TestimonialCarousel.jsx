@@ -39,11 +39,11 @@ const TestimonialCarousel = () => {
     <div className="testimonial-carousel" style={{ maxWidth: '800px', margin: '0 auto', padding: '50px 0' }}>
       <Slider {...settings}>
         {testimonials.map((testimonial, index) => (
-          <div key={index} className="testimonial-item" style={{ textAlign: 'center' }}>
+          <div key={index} className="testimonial-item d-flex justify-content-center align-items-center flex-column" style={{ textAlign: 'center' }}>
             <img
               src={testimonial.image}
               alt={testimonial.name}
-              style={{ borderRadius: '50%', marginBottom: '20px', width: '100px', height: '100px' }}
+              style={{ borderRadius: '50%', marginBottom: '20px', width: 'fit-content', height: '100px' }}
             />
             <p style={{ fontStyle: 'italic', marginBottom: '10px' }}>"{testimonial.text}"</p>
             <h3 style={{ marginBottom: '5px' }}>{testimonial.name}</h3>
