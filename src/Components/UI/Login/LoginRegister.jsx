@@ -75,7 +75,7 @@ const LoginRegister = () => {
   };
 
   const handleBlur = () => {
-    if (!dateValue) {
+    if (!(credentials.dob)) {
       setInputType('text');
     }
   };
