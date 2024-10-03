@@ -163,7 +163,7 @@ img{
     object-fit: cover;
 }
 .gap {
-    padding: 120px 0;
+    padding: 50px 0;
 }
 .no-top{
     padding-top: 0;
@@ -867,7 +867,6 @@ img.haddi {
 /* 08. heading */
 .heading {
     text-align: center;
-    padding-bottom: 40px;
 }
 .heading img {
     padding-bottom: 15px;
@@ -5757,7 +5756,3 @@ ul.social-icon i,.team-working:hover,.team-working:before,.about-gallery-img fig
     transition: .4s ease-in-out;
 }
 
-.service-fix{
-    height: 50vh;
-    padding-top: 200px;
-}

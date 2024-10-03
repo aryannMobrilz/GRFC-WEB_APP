@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -66,7 +67,7 @@ const Navbar = () => {
                   </div>
                   <div class="login">
                     <i class="fa-solid fa-user"></i>
-                    <a href="login.html">Login / Register</a>
+                    <Link to="/login-Register">Login / Register</Link>
                   </div>
                 </div>
               </div>
@@ -85,12 +86,12 @@ const Navbar = () => {
             <nav class="navbar">
               <ul class="navbar-links">
                 <li class="navbar-dropdown ">
-                  <a href="index.html">
+                  <Link to="/">
                     <i>
                       {/* <!-- <img alt="home" src="assets/img/home.png"> --> */}
                     </i>
                     home
-                  </a>
+                  </Link>
                   {/* <!-- <div class="dropdown">
                         <a href="index.html">home 1</a>
                         <a href="index-2.html">home 2</a>

@@ -6,6 +6,8 @@ import SliderBanner from './Components/UI/Home/SliderBanner';
 import Footer from './Components/Footer/Footer';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import LoginRegister from './Components/UI/Login/LoginRegister';
+import Otp from './Components/UI/Otp/Otp';
 
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/login-Register" element={<LoginRegister />} />
+          <Route path="/otp" element={<Otp/>} />
         </Routes>
         {/* <SliderBanner/> */}
         <Footer/>

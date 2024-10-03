@@ -2,7 +2,7 @@ import React from "react";
 
 const ServiceSection = () => {
   return (
-    <div>
+    <div className="py-4">
         <div class="heading pt-5">
             {/* <!-- <img src="assets/img/heading-img.png" alt="heading-img"> --> */}
             <h6>Service</h6>
@@ -16,7 +16,7 @@ const ServiceSection = () => {
               <div class="we-provide">
                 <div class="we-provide-img a01">
                   <img
-                    src="images_new/lila-in-primary-care.gif"
+                    src="assets/images_new/lila-in-primary-care.gif"
                     alt="we-provide-1"
                   />
                   <svg
@@ -43,7 +43,7 @@ const ServiceSection = () => {
               <div class="we-provide">
                 <div class="we-provide-img a01">
                   <img
-                    src="images_new/doctor2000011111.png"
+                    src="assets/images_new/doctor2000011111.png"
                     alt="we-provide-1"
                   />
                   <svg
@@ -69,7 +69,7 @@ const ServiceSection = () => {
             <div class="col-lg-4 col-md-6">
               <div class="we-provide mb-0">
                 <div class="we-provide-img a01">
-                  <img src="images_new/cardiology.png" alt="we-provide-1" />
+                  <img src="assets/images_new/cardiology.png" alt="we-provide-1" />
                   <svg
                     width="326"
                     height="326"
@@ -103,7 +103,7 @@ const ServiceSection = () => {
               <div class="we-provide">
                 <div class="we-provide-img a01">
                   <img
-                    src="images_new/doctor2000011111.png"
+                    src="assets/images_new/doctor2000011111.png"
                     alt="we-provide-1"
                   />
                   <svg
@@ -129,7 +129,7 @@ const ServiceSection = () => {
             <div class="col-lg-4 col-md-6">
               <div class="we-provide mb-0">
                 <div class="we-provide-img a01">
-                  <img src="images_new/cardiology.png" alt="we-provide-1" />
+                  <img src="assets/images_new/cardiology.png" alt="we-provide-1" />
                   <svg
                     width="326"
                     height="326"
@@ -154,7 +154,7 @@ const ServiceSection = () => {
               <div class="we-provide">
                 <div class="we-provide-img a01">
                   <img
-                    src="images_new/doctor2000011111.png"
+                    src="assets/images_new/doctor2000011111.png"
                     alt="we-provide-1"
                   />
                   <svg
